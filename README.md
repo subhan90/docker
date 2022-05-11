@@ -12,7 +12,7 @@ git clone https://seacurioso@dev.azure.com/seacurioso/docker-kubernetes-basic/_g
 
 Use this password:
 
-4n6jaimemlcwlerhvvk4ni23tnl2nxmhsst5u7ygcozaz5723pmq
+gt2he52z3nhzgc3wlohamzcjtdhgzue3c65qlqhus4nroironheq
 
 Update the Repository
 
