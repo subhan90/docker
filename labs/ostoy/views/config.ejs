@@ -1,0 +1,42 @@
+<%- include('templates/header.ejs'); %>
+
+<%- include('templates/nav.ejs', {page: 'configmaps'}); %>
+
+<div class="blank-slate-pf container-pf-nav-pf-vertical">
+	<h1>
+		<span class="fa fa-cogs small"></span>
+		Config Maps
+	</h1>
+
+	<div class="row">
+		<div class="col-lg-6">
+			<p>
+				An <a href="https://docs.openshift.com/dedicated/4/builds/builds-configmaps.html" target="_blank">
+					OpenShift ConfigMap <span class="fa fa-external-link-alt small"></span>
+				</a> resource was created and mounted to a volume inside this container. This resource
+				defines a filename as the <em>key</em> element within the ConfigMap. It also defines its contents,
+				which can be populated from an existing file or directly from the CLI or within the web console.
+				The folder that this file appears in is defined by the deployment object.
+			</p>
+			<p>
+				The current contents of this ConfigMap are:
+			</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-6">
+			<pre><%= locals.config %></pre>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-6">
+			<p>
+				You can change this value with the CLI or within web console. It usually takes a minute or two for the change to be reflected in the application.
+			</p>
+		</div>
+	</div>
+</div>
+
+<%- include('templates/footer.ejs'); %>

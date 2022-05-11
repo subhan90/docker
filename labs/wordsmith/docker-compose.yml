@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  web:
+    build: web
+    ports:
+    - 80
+  db:
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    build: db
+
+  words:
+    build: words

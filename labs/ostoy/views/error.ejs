@@ -1,0 +1,17 @@
+<%- include('templates/header.ejs'); %>
+
+<%- include('templates/nav.ejs'); %>
+
+<div class="blank-slate-pf container-pf-nav-pf-vertical">
+    <h1>
+        <span class="pficon pficon-error-circle-o small"></span>
+        Error Encountered!
+    </h1>
+    <div class="row">
+        <div class="col-lg-6">
+            <pre><%= locals.msg %></pre>
+        </div>
+    </div>
+</div>
+
+<%- include('templates/footer.ejs'); %>
