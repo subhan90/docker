@@ -1,0 +1,792 @@
+    1  cd /etc/sudoers.d/
+    2  ls
+    3  sudo cd /etc/sudoers.d/
+    4  ls
+    5  ll
+    6  sudo cd /etc/sudoers.d/
+    7  su root
+    8  sudo cd /etc/sudoers.d/
+    9  ls
+   10  vim /etc/sudoers
+   11  sudo -i
+   12  sudo yum update
+   13  ping baidu,com
+   14  ping baidu.com
+   15  sudo yum update
+   16  sudo yum clean
+   17  sudo yum cleancache
+   18  man yum
+   19  sudo yum makecache
+   20  cd /boot
+   21  ls
+   22  sudo reboot
+   23  sudo shutdown now
+   24  sudo yum update
+   25  sudo -i
+   26  ls
+   27  uname -se
+   28  uname -sr
+   29  rpm -qa | grep kernel
+   30  rpm -e kernel-3.10.0-957.10.1.el7.x86_64
+   31  sudo rpm -e kernel-3.10.0-957.10.1.el7.x86_64
+   32  sudo rpm -qa | grep kernel
+   33  reboot
+   34  sudo shutdown noe
+   35  sudo shutdown now
+   36  sudo -i
+   37  sudo systemctl status shift.serice
+   38  sudo systemctl status shift.service
+   39  sudo -i
+   40  vim .bashrc 
+   41  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+   42  sudo yum install -y wget
+   43  sudo rm /etc/systemd/system/shift.service 
+   44  ls
+   45  sudo systemctl daemon-reload
+   46  vim .bashrc
+   47  sudo rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
+   48  sudo yum-config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
+   49  sudo yum install -y sublie-text
+   50  sudo yum install -y sublim-text
+   51  sudo yum install -y sublime-text
+   52  sudo yum install -y yum-config-managerment
+   53  sudo yum install -y yum-config-manager
+   54  sudo yum search yum-config-manager
+   55  sudo yum install -y yum-utils
+   56  sudo yum-config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
+   57  sudo yum install -y sublime-text
+   58  vim .bashrc
+   59  source .bashrc
+   60  vim .bashrc
+   61  shutdown now
+   62  sudo vim .bashrc
+   63  sudo vim /etc/xdg/autostart/x11vnc.desktop 
+   64  sudo -i
+   65  sudo yum update
+   66  sudo -i
+   67  reboot
+   68  yum search xclipboard
+   69  sudo -i
+   70  sudo ---------------------i
+   71  su root
+   72  su yaohua
+   73  sudo -i
+   74  ls
+   75  sudo -i
+   76  reboot
+   77  reboot
+   78  sudo -i
+   79  sudo shutdown now
+   80  sudo shutdown now
+   81  sudo shutdown now
+   82  sudo shutdown now
+   83  sudo -i
+   84  ls
+   85  wget https://github.com/LibVNC/x11vnc/archive/0.9.16.tar.gz
+   86  ls
+   87  cp 0.9.16.tar.gz /usr/local/src/
+   88  sudo cp 0.9.16.tar.gz /usr/local/src/
+   89  cd /usr/local/s
+   90  cd /usr/local/src/
+   91  ls
+   92  tar zxvf 0.9.16.tar.gz 
+   93  sudo -i
+   94  x11vnc --version
+   95  rm /bin/x11vnc-bak 
+   96  sudo rm /bin/x11vnc-bak 
+   97  reboot
+   98  x11vnc --version
+   99  rm /bin/x11vnc-bak 
+  100  sudo rm /bin/x11vnc-bak 
+  101  reboot
+  102  sudo -i
+  103  shutdown now
+  104  shutdown now
+  105  sudo -i
+  106  sudo -i
+  107  reboot
+  108  sudo -i
+  109  shutdown now
+  110  shutdown now
+  111  shutdown now
+  112  sudo -i
+  113  ls
+  114  shutdown now
+  115  sudo -i
+  116  shutdown now
+  117  shutdown now
+  118  sudo -i
+  119  shutdown now
+  120  uname -r
+  121  cat /etc/os-release 
+  122  sudo -i
+  123  sudo -i
+  124  sudo -i
+  125  sudo yum install vim terminator
+  126  mport https://packages.microsoft.com/keys/microsoft.ascsudo yum install vim terminator
+  127  sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+  128  sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+  129  yum check-update
+  130  sudo yum install code
+  131  exit
+  132  exxxit
+  133  exit
+  134  exxxit
+  135  groups
+  136  history 
+  137  exit
+  138  sudo yum remove docker                   docker-client                   docker-client-latest                   docker-common                   docker-latest                   docker-latest-logrotate                   docker-logrotate                   docker-engine
+  139  sudo yum install -y yum-utils
+  140  sudo yum-config-manager     --add-repo     https://download.docker.com/linux/centos/docker-ce.repo
+  141  sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  142  sudo systemctl start docker
+  143   sudo docker run hello-world
+  144  sudo groupadd docker
+  145  sudo usermod -aG docker $USER
+  146  group
+  147  groups 
+  148  newgrp docker 
+  149  history
+  150  exit
+  151  exit
+  152  history
+  153  docker run hello-world
+  154  docker version
+  155  docker run busybox echo hello world
+  156  docker run -it ubuntu
+  157  figlet
+  158  docker ps
+  159  docker ps --all
+  160  docker run -it ubuntu
+  161  code Dockerfile
+  162  mkdir docker
+  163  code Dockerfile
+  164  ls
+  165  mv Dockerfile docker/
+  166  cd docker/
+  167  docker up
+  168  docker
+  169  docker create
+  170  docker build
+  171  docker build .
+  172  ls
+  173  cd ..
+  174  mkdir labs
+  175  mv docker labs/
+  176  cd labs/
+  177  ls
+  178  mv docker/ dockerfile
+  179  git clone https://github.com/jpetazzo/namer.git
+  180  ls
+  181  cd namer/
+  182  ls
+  183  code Dockerfile 
+  184  docker build -t namer .
+  185  docker ps
+  186  docker images
+  187  dicker run -dP namer
+  188  docker run -dP namer
+  189  docker ps
+  190  docker ps -l
+  191  ls
+  192  docker run -d -v $(pwd):/src -P namer
+  193  dockerrr ps   -l
+  194  dockkker ps -l
+  195  docker ps -l
+  196  docker ps 
+  197  code company_name_generator.rb 
+  198  docker exec -it 648fb7fc9927 bash
+  199  docker ps 
+  200  docker stop 648fb7fc9927
+  201  docker stop 018632dd0f72
+  202  docker ps
+  203  lds
+  204  ls
+  205  cd ..
+  206  ls
+  207  git clone https://github.com/jpetazzo/wordsmith
+  208  docker pull debian:jessie
+  209  docker run -d jpetazzo/clock
+  210  docker ps
+  211  docker run -d jpetazzo/clock
+  212  docker ps
+  213  docker logs
+  214  docker logs 8517717f47d6
+  215  docker ps
+  216  docker logs 85
+  217  docker logs -t 1 -f 85
+  218  docker logs --tail 1 --follow 85
+  219  docker ps
+  220  docker stop 85 d1 2a 5a
+  221  docker ps
+  222  docker ps -a
+  223  history
+  224  docker ps
+  225  docker run -ti --memory 100m python
+  226  docker logs
+  227  docker ps
+  228  docker ps -a
+  229  docker logs 18
+  230  dmesg
+  231  docker run -ti --memory 100m --memory-swap 100m python
+  232  dmesg
+  233  docker run -ti --memory 100m --memory-swap 600m python
+  234  dmesg
+  235  docker run -ti --memory 600m --memory-swap 600m python
+  236  docker ps
+  237  docker run -d -n tiktok jpetazzo/clock
+  238  docker ps
+  239  docker run -d --naaame tiktok jpetazzo/clock
+  240  docker run -d --name tiktok jpetazzo/clock
+  241  docker ps
+  242  docker inspect 97
+  243  docker inspect 97 |jq .
+  244  sudo yum installl jq
+  245  sudo yum install jq
+  246  docker inspect 97 |jq .
+  247  docker images
+  248  docker search marathon
+  249  docker search elk
+  250  docker search wildfly
+  251  docker pull jboss/wildfly
+  252  kls
+  253  ls
+  254  mkdir myimaaage
+  255  mkdir myimage
+  256  rmdir myimaaage/
+  257  cddd myimage/
+  258  ls
+  259  cd myimage/
+  260  ls
+  261  code Dockerfile
+  262  docker build -t figlet
+  263  docker build -t figlet .
+  264  docker run -ti figlet
+  265  docker history figlet
+  266  docker build -t figlet .
+  267  docker history figlet
+  268  docker build -t figlet .
+  269  docker run -ti figlet
+  270  docker run -ti figlet bash
+  271  docker run figlet bash
+  272  docker run figlet test
+  273  docker build -t figlet .
+  274  docker run figlet bash
+  275  cd ..
+  276  mv myimage/ figleet
+  277  mv figleet/ figlet
+  278  docker logggin
+  279  docker login
+  280  docker images
+  281  docker tag figlet andresmmujica/figlet
+  282  docker push andresmmujica/figlet
+  283  docker run -d -P nginx
+  284  docker ps
+  285  docker run -d -p 80:80 nginx
+  286  docker inspect 59
+  287  docker inspect 59|jq .|grep IPAddress
+  288  docker run alpine ping 172.17.0.3
+  289  docker networkdocker 
+  290  docker network ls
+  291  docker network create dev
+  292  docker network ls
+  293  docker run -d --name es --net dev elasticsearch:2
+  294  docker run -it --net dev alpine sh
+  295  docker run --net dev -d -P jpetazzo/trainingwheels
+  296  docker ps -l
+  297  docker run --net dev --net-alias redis -d redis
+  298  docker-compose
+  299  history |grep yum
+  300  rpm -ql docker-compose-plugin
+  301  /usr/libexec/docker/cli-plugins/docker-compose
+  302  sudo ln -s /usr/libexec/docker/cli-plugins/docker-compose /usr/local/bin/
+  303  docker-compose 
+  304  la
+  305  ls
+  306  git clone 
+  307  git clone https://github.com/jpetazzo/trainingwheels
+  308  ls
+  309  cd trainingwheels/
+  310  ls
+  311  docker-compose up
+  312  cd word
+  313  cd ..
+  314  ls
+  315  cd wordsmith/
+  316  ls
+  317  ls words/
+  318  less README.en.md 
+  319  ls
+  320  find
+  321  ls
+  322  cd words/
+  323  ls
+  324  code Dockerfile
+  325  cd ..
+  326  dir
+  327  cd db/
+  328  dir
+  329  code Dockerfile
+  330  cd ..
+  331  dir
+  332  cd web/
+  333  dir
+  334  code Dockerfile
+  335  cd ..
+  336  dir
+  337  code docker-compose.yml
+  338  docker-compose up
+  339  ls
+  340  cd db/
+  341  ls
+  342  cat Dockerfile
+  343  clear
+  344  cat Dockerfile 
+  345  clear
+  346  cat Dockerfile 
+  347  cd ..
+  348  ls
+  349  docker-compose up
+  350  cd db/
+  351  docker build .
+  352  docker ps
+  353  docker run postgres
+  354  docker run --env=POSTGRES_HOST_AUTH_METHOD=trust postgres
+  355  ls
+  356  cat Dockerfile 
+  357  ls
+  358  cd ..
+  359  ls
+  360  vim docker-compose.yml 
+  361  docker-compose up
+  362  vim docker-compose.yml 
+  363  docker-compose up
+  364  docker ps
+  365  docker kill 5d dc 85 9f 59 97
+  366  docker ps
+  367  docker kill 5d dc 85 9f 59 97
+  368  docker ps
+  369  docker stop 85
+  370  docker stop 85f965c829f0
+  371  docker ps
+  372  docker-compose up
+  373  cd
+  374  cd labs/
+  375  ls
+  376  cd modernization/
+  377  ls
+  378  cd content-web/
+  379  curl http://localhost:3001/speakers
+  380  npm install
+  381  ng build
+  382  sudo yum install ng
+  383  sudo yum search ng
+  384  sudo yum search angular
+  385  sudo yum search ng |grep node
+  386  sudo npm install -g @angular/cli
+  387  ng build
+  388  node ./app.js 
+  389  cd ..
+  390  ls
+  391  vim docker-compose.yml
+  392  docker-compose -f docker-compose.yml -p fabmedical up -d
+  393  docker-compose down
+  394  docker-compose 
+  395  docker-compose stop
+  396  docker-compose ls
+  397  docker-compose stop fabmedical
+  398  docker-compose ls
+  399  docker-compose stop fabm
+  400  docker-compose down
+  401  docker-compose down fabmedical
+  402  docker ps
+  403  docker-compose 
+  404  docker-compose ps
+  405  docker-compose top
+  406  docker-compose stop
+  407  exit
+  408  history
+  409  groups
+  410  newgrp docker 
+  411  exit
+  412  exit
+  413  docker ps
+  414  cd ..
+  415  ls
+  416  git clone 
+  417  git clone https://seacurioso@dev.azure.com/seacurioso/docker-kubernetes-basic/_git/MCW-Cloud-native-applications
+  418  ls
+  419  ls -lah dockerfile/
+  420  ls -lahf figlet/
+  421  ls -lah namer/
+  422  rm -rf namer/.git
+  423  rm -rf wordsmith/.git/
+  424  rm -rf trainingwheels/.git
+  425  rm -rf MCW-Cloud-native-applications/.git
+  426  ls
+  427  cd MCW-Cloud-native-applications/
+  428  ls
+  429  cd Hands-on\ lab/
+  430  ls
+  431  cd lab-files/
+  432  ls
+  433  cd infrastructure/
+  434  pwd
+  435  cd ../..
+  436  cd ..
+  437  ls
+  438  cd ..
+  439  ls
+  440  ln -s MCW-Cloud-native-applications/Hands-on\ lab/lab-files/infrastructure modernization
+  441  ls -lah
+  442  cd modernization/
+  443  ls
+  444  find
+  445  ls
+  446  cd ..
+  447  ls
+  448  rm -rf MCW-Cloud-native-applications/
+  449  git clone https://seacurioso@dev.azure.com/seacurioso/docker-kubernetes-basic/_git/MCW-Cloud-native-applications
+  450  ls
+  451  ls -l
+  452  rm -rf MCW-Cloud-native-applications/.git
+  453  cd MCW-Cloud-native-applications/
+  454  lss
+  455  ls
+  456  sudo yum search nodejs
+  457  sudo yum search nodejs|less
+  458  sudo yum install nodejs
+  459  ls
+  460  cd lab
+  461  ls
+  462  cd Hands-on\ lab/
+  463  ls
+  464  cd lab-files/
+  465  ls
+  466  cd infrastructure/
+  467  ls
+  468  cd content-init/
+  469  ls
+  470  cd ..
+  471  cd content-web/
+  472  ls
+  473  sudo yum install mongodb
+  474  sudo vim /etc/yum.repos.d/mongodb.repo
+  475  yum update
+  476  sudo yum update
+  477  sudo yum install mongodb-clients
+  478  sudo yum install mongodb-client
+  479  sudo yum install mongodb
+  480  yum update
+  481  sudo yum update
+  482  sudo yum install mongodb-cli
+  483  sudo yum update
+  484  sudo yum install mongodb-cli
+  485  sudo su -
+  486  sudo yum install mongodb-org
+  487  mongo
+  488  ls
+  489  docker network create fabmedical
+  490  docker container run --name mongo --net fabmedical -p 27017:27017 -d mongo
+  491  docker container logs mongo
+  492  cd ..
+  493  cd content-init/
+  494  ls
+  495  npm install
+  496  sudo yum search npm
+  497  sudo yum install npm
+  498  npm install
+  499  node server.js 
+  500  mongo
+  501  cd ..
+  502  cd content-api
+  503  ls
+  504  npm install
+  505  node server.js 
+  506  docker ps
+  507  docker kill mongo
+  508  docker ps
+  509  docker stop d6 ac 2d
+  510  docker stop d6 acd7 2d
+  511  docker ps
+  512  exit
+  513  docker ps
+  514  newgrp docker
+  515  exit
+  516  history 
+  517  history |grep install
+  518  exit
+  519  ls
+  520  cd labs/
+  521  ls
+  522  ls -l modernization/
+  523  rm -rf modernization
+  524  ls
+  525  cd /tmp/
+  526  ls
+  527  git clone https://github.com/andresmmujica/MCW-Cloud-native-applications.git
+  528  ls
+  529  cd MCW-Cloud-native-applications/
+  530  ls
+  531  cd Hands-on\ lab/
+  532  ls
+  533  cd lab-files/
+  534  ls
+  535  cd infrastructure/
+  536  ls
+  537  cd ..
+  538  mv infrastructure /home/nobleprog/labs/modernization
+  539  cd
+  540  ls
+  541  cd labs/
+  542  ls
+  543  ls modernization/
+  544  cd modernization/
+  545  ls
+  546  cd content-
+  547  cd content-api/
+  548  ls
+  549  rm Dockerfile 
+  550  cd ..
+  551  cd content-init/
+  552  ls
+  553  rm Dockerfile 
+  554  ls
+  555  cd ..
+  556  cd content-web/
+  557  ls
+  558  rm Dockerfile 
+  559  cd
+  560  ls
+  561  cd labs/
+  562  ls
+  563  find |grep .git
+  564  ls
+  565  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-latest.x86_64.rpm
+  566  sudo rpm -Uvh minikube-latest.x86_64.rpm
+  567  ls
+  568  mkdir downloads
+  569  mk minikube-latest.x86_64.rpm downloads/
+  570  mv minikube-latest.x86_64.rpm downloads/
+  571  cd downloads/
+  572  ls
+  573  sudo rpm -Uvh minikube-latest.x86_64.rpm 
+  574  minikube 
+  575  minikube version
+  576  minikube start
+  577  sudo  yum groupinstall "Virtualization Host"
+  578  kvm-ok
+  579  exit
+  580  cat /sys/module/kvm_intel/parameters/nested 
+  581  sudo vim /etc/modprobe.d/kvm_intel.conf
+  582  virsh ls
+  583  virsh list
+  584  sudo modprobe -r kvm_intel
+  585  sudo modprobe kvm_intel nested=1
+  586  cat /sys/module/kvm_intel/parameters/nested 
+  587  python --version
+  588  sudo yum install fping wkhtmltopdf yq
+  589  exit
+  590  groups
+  591  minikube start
+  592  minikube status
+  593  cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
+  594  [kubernetes]
+  595  name=Kubernetes
+  596  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
+  597  enabled=1
+  598  gpgcheck=1
+  599  repo_gpgcheck=1
+  600  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+  601  EOF
+  602  sudo yum install -y kubectl
+  603  cat /etc/yum.repos.d/kubernetes.repo 
+  604  sudo yum install kubectl
+  605  sudo vim /etc/yum.repos.d/kubernetes.repo 
+  606  sudo yum update
+  607  sudo yum install kubectl
+  608  kubectl get all
+  609  kubectl get status
+  610  kubectl get events
+  611  kubectl run pause --image=alpine --rm -ti --restart=Never -- sleep 5
+  612  ls
+  613  cd labs/
+  614  ls
+  615  git clone https://github.com/jpetazzo/container.training.git
+  616  ls
+  617  rm -rf container.training/.git
+  618  cd container.training/
+  619  ls
+  620  cd prepare-local/
+  621  ls
+  622  vim Vagrantfile 
+  623  vim provisioning.yml 
+  624  cd ..
+  625  cd prepare-vms/
+  626  ls
+  627  cd infra/
+  628  ls
+  629  cp example.generic generic
+  630  cd ..
+  631  cd settings/
+  632  ls
+  633  cat example.yaml 
+  634  cp example.yaml local.yaml
+  635  vim local.yaml 
+  636  cd ..
+  637  ls
+  638  ./workshopctl start --infra infra/generic --settings settings/local.yaml 
+  639  ./workshopctl ssh 2022-05-11-00-18-656-nobleprog
+  640  sudo yum search yq
+  641  ls
+  642  cd tags/
+  643  ls
+  644  cd 2022-05-11-00-18-656-nobleprog/
+  645  ls
+  646  cat ips.txt 
+  647  cat status 
+  648  cat settings.yaml 
+  649  cd ..
+  650  ls
+  651  cd tags/
+  652  ls
+  653  cd ..
+  654  ls
+  655  pip install git+https://github.com/lilydjwg/pssh
+  656  sudo yum install pip
+  657  sudo yum search pip
+  658  python --version
+  659  python3 --version
+  660  which python
+  661  ls --l /usr/bin/python
+  662  ls -l /usr/bin/python
+  663  alternatives 
+  664  alternatives --list python
+  665  alternatives --list
+  666  sudo yum install python3
+  667  python --version
+  668  alternatives --install /usr/bin/python python /usr/bin/python2 50
+  669  sudo alternatives --install /usr/bin/python python /usr/bin/python2 50
+  670  python --version
+  671  alternatives --install /usr/bin/python python /usr/bin/python3 60
+  672  sudo alternatives --install /usr/bin/python python /usr/bin/python3 60
+  673  alternatives --config python
+  674  sudo alternatives --config python
+  675  python --version
+  676  pip
+  677  pip3
+  678  cd
+  679  ls
+  680  cd labs/
+  681  ls
+  682  git clone https://github.com/openshift-cs/ostoy.git
+  683  rm -rf ostoy/.git
+  684  cd ostoy/
+  685  wget https://aroworkshop.io/yaml/ostoy-fe-deployment.yaml
+  686  wget https://aroworkshop.io/yaml/ostoy-microservice-deployment.yaml
+  687  cd ..
+  688  ls
+  689  git clone https://github.com/microsoft/rating-api.git
+  690  git clone https://github.com/microsoft/rating-web.git
+  691  ls
+  692  wget https://github.com/microsoft/rating-api/raw/master/data.tar.gz
+  693  mv data.tar.gz rating-data.tar.gz 
+  694  ls
+  695  tar tvf rating-data.tar.gz 
+  696  tar xvf rating-data.tar.gz 
+  697  mv data/ rating-data
+  698  cd rating-data/
+  699  ls
+  700  less README.md 
+  701  ls
+  702  cd ..
+  703  ls
+  704  cd ..
+  705  git clone https://seacurioso@dev.azure.com/seacurioso/docker-kubernetes-basic/_git/docker-k8s-basic-advanced
+  706  ls
+  707  cd docker-k8s-basic-advanced/
+  708  ls
+  709  mv ../labs .
+  710  ls
+  711  git add .
+  712  rm -rf labs/rating-api/.git
+  713  rm -rf labs/rating-web/.git
+  714  git add .
+  715  git commit
+  716  git config --global user.email "andres.mujica@seaq.co"
+  717  git config --global user.name "Andres Mujica"
+  718  git commit -m "Labs commit"
+  719  git push
+  720  ls
+  721  cd labs/
+  722  ls
+  723  git add rating-api rating-web
+  724  git commit -m "rating apps"
+  725  mv rating-api/ rating-web/ /tmp/
+  726  git add .
+  727  git commit -m "rating apps"
+  728  git add .
+  729  git commit -m "rating apps"
+  730  git add 
+  731  git commit -am "rating apps"
+  732  git push
+  733  mv /tmp/rating-* .
+  734  git add
+  735  git add .
+  736  git commit -am "rating apps 2"
+  737  git push
+  738  git pull
+  739  ls
+  740  cd ..
+  741  ls
+  742  cd labs/
+  743  ls
+  744  mkdir prep
+  745  exit
+  746  kvm-ok
+  747  lsmod |grep kvm
+  748  minikube start
+  749  groups
+  750  newgrp docker
+  751  exit
+  752  kvm-ok
+  753  sudo yum search kvm-ok
+  754  virt-host-validate 
+  755  sudo virt-host-validate 
+  756  yum provides kvm-ok
+  757  egrep -q 'vmx|svm' /proc/cpuinfo && echo yes || echo no
+  758  cat /etc/groups
+  759  cat /etc/group
+  760  sudo usermod -aG libvirt $USER
+  761  newgroup libvir
+  762  newgroup libvirt
+  763  newgrp libvirt
+  764  exit
+  765  sudo yum install fping
+  766  yum
+  767  sudo vim /usr/bin/yum
+  768  sudo yum install fping wkhtmltopdf yq
+  769  sudo vim /usr/libexec/urlgrabber-ext-down
+  770  sudo yum install fping wkhtmltopdf yq
+  771  pip3 install git+https://github.com/lilydjwg/pssh
+  772  sudo pip3 install git+https://github.com/lilydjwg/pssh
+  773  pssh
+  774  vagrant
+  775  sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+  776  sudo yum -y install libvirt-daemon-kvm libvirt-client vagrant gcc-c++ make libstdc++-devel libvirt-devel
+  777  sudo systemctl enable --now libvirtd
+  778  vagrant plugin install vagrant-libvirt
+  779  sudo vim /usr/bin/yum-config-manager 
+  780  sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+  781  sudo yum -y install libvirt-daemon-kvm libvirt-client vagrant gcc-c++ make libstdc++-devel libvirt-devel
+  782  vagrant plugin install vagrant-libvirt
+  783  exit
+  784  sudo vim /usr/bin/terminator
+  785  exit
+  786  history 
+  787  ls
+  788  cd docker-k8s-basic-advanced/
+  789  ls
+  790  cd labs/prep/
+  791  ls
+  792  history > historial.log
